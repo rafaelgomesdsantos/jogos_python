@@ -1,15 +1,14 @@
 # codigo 8 rafgds jogo adivinhação de números com o botlomeu
 
-print("--------------Jogo do Número Secreto------------")
+print("--------------Jogo do Número Secreto---------\n")
 from random import *
 rdn = randint(0,20)
 tent = 5
-print()
-print("Olá jogador tente adivinhar o número que estou pensando entre 1 a 20")
-print("Você tem apenas 5 vidas, Boa Sorte! >:D")
-print("Para começar gostaria de saber o seu nome")
+print("Olá jogador, duvido você acertar o número que estou pensando\n")
+print("Você tem apenas 5 vidas, Boa Sorte! >:D\n")
+print("Para começar gostaria de saber o seu nome\n")
 nome = input ("Digite o seu nome: ")
-print("Olá", nome,", você pode me chamar de Botlomeu, vamos começar?")
+print("\nOlá", nome,", você pode me chamar de Botlomeu, vamos começar?")
 while tent > 0:
     tent = tent - 1
     ch = int(input("Tente a sorte, digite um número: "))
