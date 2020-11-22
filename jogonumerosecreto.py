@@ -15,20 +15,20 @@ while tent > 0:
     ch = int(input("Tente a sorte, digite um número: "))
     print()
     if ch > rdn:
-        print("O número secreto é menor")
+        print("O número que estou pensando é menor")
         print("Você tem %d vidas" % tent,"," ,nome)
         print()
     elif ch < rdn:
-        print("O número secreto é maior")
+        print("O número que estou pensando é maior")
         print("Você tem %d vidas" % tent, "," ,nome)
         print()
     else:
-        print("Você ganhou! O número que estou pensando era: %d !" % rdn, " Parabéns", nome, ":D")
+        print("Você ganhou! O número que eu estava pensando era: %d !" % rdn, " Parabéns", nome, ":D")
         tent = -1
 if tent == 0:
     print()
     print("Você perdeu! Mais sorte da próxima vez", nome, ":(")
-    print("o número que estava pensando era %d " % rdn)
+    print("o número que eu estava pensando era %d " % rdn)
     input()
 elif tent == -1:
     input()
