@@ -1,4 +1,4 @@
-# codigo 8 rafgds jogo adivinhação de números com o botlomeu
+# codigo 8 rafgds
 
 print("--------------Jogo do Número Secreto---------\n")
 from random import *
